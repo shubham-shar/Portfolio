@@ -1,7 +1,8 @@
 # This document contains following:
-	- Project-Description.
-	- Requirements.
-	- How to execute the project.
+	
+- Project-Description.
+- Requirements.
+- How to execute the project.
 
 
 
@@ -13,11 +14,12 @@ This is project of making a portfolio that displays some of my works and user ca
 # Requirements
 To run this project you should have the following things on your computer.
 	
-	- Any browser (chrome recommended).
+- Any browser (chrome recommended).
 
 
 # How to execute the project
-	- open mysite1.html in the browser.
+
+- open mysite1.html in the browser.
 
 
 
