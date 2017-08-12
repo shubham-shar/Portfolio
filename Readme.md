@@ -12,6 +12,7 @@ This is project of making a portfolio that displays some of my works and user ca
 
 # Requirements
 To run this project you should have the following things on your computer.
+	
 	- Any browser (chrome recommended).
 
 
