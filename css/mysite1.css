@@ -1,0 +1,120 @@
+/* To modify all the body contents */
+body {
+  font-family: "Open Sans", sans-serif; /* To apply Open Sans font */
+  color: #2d3c49;
+  font-weight: 300;
+}
+
+/* To modify div containing all the block */
+.container {
+  width: 100%;
+}
+
+/* To modify the horizontal line under header */
+.h-line {
+    border: none;
+    height: 4px;
+    background-color: #7d97ad;
+}
+
+/* To modify heading of the footer */
+.text-muted {
+  color: #7d97ad;
+}
+
+/* To modify the heading of the page */
+.text-thin {
+  font-weight: 400;
+}
+
+.title-super {
+  font-size: 60px;
+}
+
+/* To modify the logo at the top */
+.title-logo {
+  margin-top: 3%;
+}
+
+/* To modify the featured work images */
+.work-img {
+  width: 100%;
+}
+
+/* Media query for screen having width less than 767px */
+@media screen and (max-width: 767px) {
+
+/* To modify the logo at the top */
+  .title-logo {
+    margin-left: 3%;
+    margin-top: 3%;
+    width: 20%;
+  }
+
+/* To modify the main image at center */
+  .content-img {
+    height: 15em;
+  }
+}
+
+/* Media query for screen having width  greater than 768px and less than 850px*/
+@media screen and (min-width: 768px) and (max-width: 850px) {
+
+/* To make the text under work images to left side */
+  .text-center {
+    text-align: left;
+  }
+
+/* To modify the logo at the top */
+  .title-logo {
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+
+/* To modify the whole header block at the top containing logo and heading */
+  .header {
+    display: flex;
+  }
+
+/* To modify the subheading under the main heading of the page*/
+  .subheading {
+    font-size: 80%;
+  }
+
+/* To modify the main image at center */
+  .content-img {
+    height: 30em;
+  }
+
+/* To apply a gap at the top of the footer heading */
+  .footer {
+    margin-top: 5%;
+  }
+
+/* To modify heading of the footer */
+  .text-muted {
+    font-size: 300%;
+    color: #7d97ad;
+  }
+
+/* To modify the block containing featured work images */
+  .work-block {
+    margin-bottom: 7%;
+  }
+
+/* To modify the work images */
+  .work-img {
+    height: 20em;
+  }
+
+/* To change size of the heading of work images */
+  .text-uppercase {
+    text-transform: uppercase;
+    font-size: 270%;
+  }
+
+/* To change size of the links of the image */
+  .work-links {
+    font-size: 150%;
+  }
+}

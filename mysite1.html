@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- This is the title of the page -->
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <!-- This is for the viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the page -->
+    <title>Portfolio</title>
+    <!-- Opens Sans font link -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- link for java query to open more info about work images -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Link to bootstrap file -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Link to my own CSS file -->
+    <link rel="stylesheet" href="css/mysite1.css">
+  </head>
+  <body>
+    <!-- Whole page Block containing every other block-->
+    <div class="container">
+      <!-- Header row block -->
+        <header class="row header">
+          <!-- Block for Header logo -->
+          <div class="col-md-4 logo">
+            <img class="title-logo" src="img/logo.jpg" alt="kitty logo">
+          </div>
+          <!-- Block for title for header -->
+          <div class="col-md-8 text-right text-uppercase">
+            <h1 class="title-super text-thin heading">Shubham Sharma</h1>
+            <h4 class="subheading">Front-end Ninja</h4>
+          </div>
+        </header>
+        <div class="row">
+          <div class="col-md-12">
+            <hr class="h-line">
+          </div>
+        </div>
+        <!-- Block for Center content -->
+        <section class="row content">
+          <!-- Block for Center image -->
+          <div class="col-md-12">
+            <img class="img-responsive content-img" src="img/content.jpg" alt="main kitty image">
+          </div>
+        </section>
+        <!-- Block for the footer -->
+        <div class="row footer">
+          <!-- Block for Footer heading-->
+          <div class="col-md-12">
+            <h2 class="text-muted">Featured Work</h2>
+          </div>
+        </div>
+        <!-- block for footer content-->
+        <footer class="row text-center">
+          <!-- Content one for footer -->
+          <div class="col-md-4 work-block">
+            <!-- first image -->
+            <img class="img-responsive work-img" src="img/work1.png" alt="Kitty 1"
+             data-toggle="modal" data-target="#image1">
+            <h3 class="text-uppercase">Work 1</h3>
+            <p class="work-links">https://github.com/udacity/work1</p> <!-- Just an example link, it is not real -->
+          </div>
+          <!-- Content second for footer -->
+          <div class="col-md-4 work-block">
+            <!-- second image -->
+            <img class="img-responsive work-img" src="img/work2.jpg" alt="Kitty 2"
+             data-toggle="modal" data-target="#image2">
+            <h3 class="text-uppercase">Work 2</h3>
+            <p class="work-links">https://github.com/udacity/work1</p>  <!-- Just an example link, it is not real -->
+          </div>
+          <!-- Content third for footer -->
+          <div class="col-md-4 work-block">
+            <!-- third image -->
+            <img class="img-responsive work-img" src="img/work3.jpg" alt="kitty 3"
+             data-toggle="modal" data-target="#image3">
+            <h3 class="text-uppercase">Work 3</h3>
+            <p class="work-links">https://github.com/udacity/work1</p>  <!-- Just an example link, it is not real -->
+          </div>
+        </footer>
+    </div>
+
+    <!-- Modal for first kitten -->
+    <div class="modal fade" id="image1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">First Work</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="img/work1.png">
+                    This is just a rectangular banner of 300 width and 150 height in pixels.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for second kitten-->
+    <div class="modal fade" id="image2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Second Work</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="img/work2.jpg">
+                    Found it really beautiful. I think its electron and proton attraction, whatever!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for third kitten-->
+    <div class="modal fade" id="image3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Third Third</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="img/work3.jpg">
+                    Last work of mine. This seems such a beautiful city that i want to travel to it one day.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  </body>
+</html>
